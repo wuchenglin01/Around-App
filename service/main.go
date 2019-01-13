@@ -7,7 +7,7 @@ import (
 	"log"
 	"strconv"
 	"reflect"
-	elastic "gopkg.in/olivere/elastic.v3"
+	"gopkg.in/olivere/elastic.v3"
 	"github.com/pborman/uuid"
 )
 
@@ -15,9 +15,9 @@ const (
 	INDEX = "around"
 	TYPE = "post"
 	DISTANCE = "200km"
-	PROJECT_ID = "around-xxx"
+	PROJECT_ID = "around-228401"
 	BT_INSTANCE = "around-post"
-	ES_URL = "http://35.237.136.171:9200"
+	ES_URL = "http://35.231.149.37:9200"
 
 )
 
